@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+
+# Fast crawl settings
+Crawl-delay: 0
+
+# Sitemap
+Sitemap: https://videy-co-now.web.id/sitemap.xml
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+
+# Yandex
+User-agent: Yandex
+Allow: /
+
+# Block unnecessary files
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /admin/
+
+# Host
+Host: videy-co-now.web.id
